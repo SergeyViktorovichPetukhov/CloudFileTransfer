@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="80.0" prefWidth="509.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller = "com.GeekCloud.client.AuthController">
+
+      <HBox prefHeight="100.0" prefWidth="238.0" />
+      <HBox layoutX="239.0" prefHeight="100.0" prefWidth="270.0">
+         <children>
+            <Button mnemonicParsing="false" prefHeight="104.0" prefWidth="270.0" text="Sign In" fx:id="signIn" />
+         </children>
+      </HBox>
+      <Button mnemonicParsing="false" prefHeight="100.0" prefWidth="238.0" text="Log In" fx:id="logIn"  />
+
+</AnchorPane>
